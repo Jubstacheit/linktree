@@ -9,16 +9,18 @@ function LinkCard({
   return (
     <a href={href} className="flex items-center w-full p-1 rounded-md shadow-lg hover:scale-105 transition-all bg-gray-100 mb-3">
       <div className="flex text-center w-full">
-        { image && (
-          <Image
-          alt={title}
-          src={image}
-          width={40}
-          height={40}
-          className="rounded-sm"
-        />
-        )}
-        <h2 className="font-semibold w-full text-center text-gray-700">
+        <div className="w-10 h-10">
+          { image && (
+            <Image
+              alt={title}
+              src={image}
+              width={40}
+              height={40}
+              className="rounded-sm"
+            />
+          )}
+        </div>
+        <h2 className="font-semibold w-full flex justify-center items-center -ml-10 text-gray-700">
           {title}
         </h2>
       </div>
