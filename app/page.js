@@ -1,5 +1,6 @@
 import Image from "next/image";
 import data from "../data.json";
+import { get } from '@vercel/edge-config';
 
 function TwitterIcon() {
   return (
