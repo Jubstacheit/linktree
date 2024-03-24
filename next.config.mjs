@@ -7,7 +7,7 @@ const nextConfig = {
 				hostname: 'pbs.twimg.com'
 			},
 			{
-				hostname: 'github.com'
+				hostname: 'github.githubassets.com'
 			},
 			{
 				hostname: 'dev-portfolio.jubstacheit-art.com'
