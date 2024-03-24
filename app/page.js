@@ -1,5 +1,4 @@
 import Image from "next/image";
-import data from "../data.json";
 import { get } from '@vercel/edge-config';
 
 function TwitterIcon() {
@@ -77,7 +76,8 @@ function LinkCard({
   )
 }
 
-export default function Home() {
+export default async function Home() {
+  const data = await get("linktree");
   return (
     <div className="flex items-center flex-col mx-auto w-full justify-center mt-16 px-8">
       <Image
