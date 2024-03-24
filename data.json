@@ -4,24 +4,24 @@
 	"links": [
 		{
 			"title": "Personnal portfolio",
-			"url": "https://twitter.com/JubstacheitAlt",
+			"href": "https://twitter.com/JubstacheitAlt",
 			"image": "https://pbs.twimg.com/profile_images/1767960131092774912/6u1Wz5ug_400x400.jpg"
 		},
 		{
 			"title": "Website",
-			"url": "https://github.com/Jubstacheit",
+			"href": "https://github.com/Jubstacheit",
 			"image": "https://pbs.twimg.com/profile_images/1767960131092774912/6u1Wz5ug_400x400.jpg"
 		}
 	],
 	"socials": [
 		{
 			"title": "Twitter",
-			"url": "https://twitter.com/JubstacheitAlt",
+			"href": "https://twitter.com/JubstacheitAlt",
 			"image": "https://pbs.twimg.com/profile_images/1767960131092774912/6u1Wz5ug_400x400.jpg"
 		},
 		{
 			"title": "GitHub",
-			"url": "https://github.com/Jubstacheit",
+			"href": "https://github.com/Jubstacheit",
 			"image": "https://pbs.twimg.com/profile_images/1767960131092774912/6u1Wz5ug_400x400.jpg"
 		}
 	]
