@@ -94,14 +94,16 @@ export default function Home() {
         <LinkCard key={link.href} {...link} />
       ))}
 
-      {data.socials.map((link) => {
-        if (link.href.includes("twitter")) {
-          return <TwitterIcon key={link} />;
-        }
-        if (link.href.includes("github")) {
-          return <GitHubIcon key={link} />;
-        }
-      })}
+      <div className="flex gap-4 items-center mt-8">
+        {data.socials.map((link) => {
+          if (link.href.includes("twitter")) {
+            return <TwitterIcon key={link} />;
+          }
+          if (link.href.includes("github")) {
+            return <GitHubIcon key={link} />;
+          }
+        })}
+      </div>
     </div>
   );
 }
