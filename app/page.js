@@ -213,12 +213,12 @@ export default async function Home() {
         <LinkCard key={link.href} {...link} />
       ))}
 
-      {/*<h2 className="font-semibold text-lg mb-2 mt-6">
-        My art adventures
+      <h2 className="font-semibold text-lg mb-2 mt-6">
+        Others...
       </h2>
       {data.other.map((link) => (
         <LinkCard key={link.href} {...link} />
-      ))}*/}
+      ))}
       
     </div>
   );

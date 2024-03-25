@@ -14,6 +14,9 @@ const nextConfig = {
 			},
 			{
 				hostname: 'playbackapp.netlify.app'
+			},
+			{
+				hostname: 'yt3.googleusercontent.com'
 			}
 		]
 	},
