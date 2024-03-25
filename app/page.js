@@ -150,35 +150,35 @@ export default async function Home() {
         {data.socials.map((link) => {
           if (link.href.includes("twitter")) {
             return (
-              <a className="hover:scale-105 transition-all" href={link.href} key={link}>
+              <a className="hover:scale-110 transition-all" href={link.href} key={link}>
                 <TwitterIcon />
               </a>
             )
           }
           if (link.href.includes("github")) {
             return (
-              <a className="hover:scale-105 transition-all" href={link.href} key={link}>
+              <a className="hover:scale-110 transition-all" href={link.href} key={link}>
                 <GitHubIcon />
               </a>
             )
           }
           if (link.href.includes("rivals")) {
             return (
-              <a className="hover:scale-105 transition-all" href={link.href} key={link}>
+              <a className="hover:scale-110 transition-all" href={link.href} key={link}>
                 <MastoIcon />
               </a>
             )
           }
           if (link.href.includes("instagram")) {
             return (
-              <a className="hover:scale-105 transition-all" href={link.href} key={link}>
+              <a className="hover:scale-110 transition-all" href={link.href} key={link}>
                 <InstaIcon />
               </a>
             )
           }
           if (link.href.includes("bsky")) {
             return (
-              <a className="hover:scale-105 transition-all" href={link.href} key={link}>
+              <a className="hover:scale-110 transition-all" href={link.href} key={link}>
                 <BskyIcon />
               </a>
             )
