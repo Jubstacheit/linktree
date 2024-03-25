@@ -11,6 +11,9 @@ const nextConfig = {
 			},
 			{
 				hostname: 'dev-portfolio.jubstacheit-art.com'
+			},
+			{
+				hostname: 'playbackapp.netlify.app'
 			}
 		]
 	},
