@@ -231,7 +231,7 @@ export default async function Home() {
       </h2>
 
 
-      <div className="flex gap-4 items-center mb-4">
+      <div className="flex gap-4 items-center mb-4 flex-wrap justify-center">
         {data.socials.map((link) => {
           if (link.href.includes("twitter")) {
             return (
