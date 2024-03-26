@@ -197,7 +197,7 @@ function LinkCard({
             />
           )}
         </div>
-        <h2 className="font-semibold w-full flex justify-center items-center pl-10 pr-10 -ml-10 text-gray-700">
+        <h2 className="font-semibold w-full flex justify-center items-center pl-12 pr-12 -ml-10 text-gray-700">
           {title}
         </h2>
       </div>
