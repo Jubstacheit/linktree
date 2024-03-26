@@ -1,3 +1,7 @@
+This repo is for my Linktree's clone. This replicates a Linktree site appearance and serves as a hub for my social media and various different links.
+
+The links and images are set in a Vercel's Edge config storage and are dynamically added or removed without the repo being redeployed. You can also use a JSON file. The social media logos are defined within the project using hostname recognition and FontAwesome logos.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
