@@ -185,8 +185,8 @@ function LinkCard({
 }) {
   return (
     <a href={href} className="flex items-center w-full p-1 rounded-md shadow-lg hover:scale-105 hover:bg-gray-200 hover:rounded-none transition-all max-w-3xl bg-gray-100 mb-3">
-      <div className="flex text-center w-full">
-        <div className="w-10 h-10">
+      <div className="flex text-center w-full items-center justify-center">
+        <div className="h-full flex">
           { image && (
             <Image
               alt={title}
