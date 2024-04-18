@@ -17,6 +17,9 @@ const nextConfig = {
 			},
 			{
 				hostname: 'yt3.googleusercontent.com'
+			},
+			{
+				hostname: 'jubstacheit.github.io'
 			}
 		]
 	},
