@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { get } from '@vercel/edge-config';
 import { redirect } from "next/navigation";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from "react";
 
 export const dynamic = 'force-dynamic'
 
