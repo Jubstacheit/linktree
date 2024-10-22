@@ -20,6 +20,9 @@ const nextConfig = {
 			},
 			{
 				hostname: 'jubstacheit.github.io'
+			},
+			{
+				hostname: 'vivianedessaint.vercel.app'
 			}
 		]
 	},

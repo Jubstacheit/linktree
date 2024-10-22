@@ -212,7 +212,7 @@ export default async function Home() {
 
   // Security in case of missing data from Vercel
   if (!data) {
-    redirect("https://twitter.com/JubstacheitAlt");
+    redirect("https://twitter.com/Jubstacheit");
   }
   return (
     <div className="flex items-center flex-col mx-auto w-full justify-center mt-16 px-8">
